@@ -6,7 +6,7 @@ import Style from "../style";
 export default (props) => {
   let { X, Y } = props;
 
-  if (X < Y && X != Y) {
+  if (X < Y) {
     let aux = Y;
     Y = X;
     X = aux;
