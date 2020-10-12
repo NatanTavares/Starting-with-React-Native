@@ -5,6 +5,7 @@ import { StyleSheet, View } from "react-native";
 import First from "./src/components/First";
 import MinMax from "./src/components/MinMax";
 import CompDefault, { Comp1, Comp2 } from "./src/components/Multi";
+import RandomNumGen from "./src/components/RandomNumGen";
 
 export default function App() {
   return (
@@ -17,7 +18,9 @@ export default function App() {
       <Comp1 />
       <Comp2 /> */}
 
-      <MinMax X={1} Y={1} />
+      {/* <MinMax X={1} Y={1} /> */}
+
+      <RandomNumGen num1={1} num2={30} />
 
     </View>
   );
