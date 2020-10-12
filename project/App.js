@@ -21,6 +21,8 @@ export default function App() {
       {/* <MinMax X={1} Y={1} /> */}
 
       <RandomNumGen num1={1} num2={30} />
+      <RandomNumGen num1={1} num2={30} />
+      <RandomNumGen num1={1} num2={30} />
 
     </View>
   );
