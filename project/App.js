@@ -6,23 +6,25 @@ import First from "./src/components/First";
 import MinMax from "./src/components/MinMax";
 import CompDefault, { Comp1, Comp2 } from "./src/components/Multi";
 import RandomNumGen from "./src/components/RandomNumGen";
+import Title from "./src/components/Title";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
+      {/* <First /> */}
 
-      {/* <First />
-
-      <CompDefault />
-      <Comp1 />
-      <Comp2 /> */}
+      {/* <CompDefault /> */}
+      {/* <Comp1 /> */}
+      {/* <Comp2 /> */}
 
       {/* <MinMax X={1} Y={1} /> */}
 
-      <RandomNumGen num1={1} num2={30} />
-      <RandomNumGen num1={1} num2={30} />
-      <RandomNumGen num1={1} num2={30} />
+      {/* <RandomNumGen num1={1} num2={30} /> */}
+      {/* <RandomNumGen num1={1} num2={30} /> */}
+      {/* <RandomNumGen num1={1} num2={30} /> */}
+
+      <Title principal="I'm principal title" secondary="I'm secondary" />
 
     </View>
   );
