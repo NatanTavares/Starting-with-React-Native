@@ -10,6 +10,8 @@ import CompDefault, { Comp1, Comp2 } from "./src/components/Multi";
 import RandomNumGen from "./src/components/RandomNumGen";
 import Title from "./src/components/Title";
 
+import Father from "./src/components/direct/Father";
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -30,7 +32,9 @@ export default function App() {
       
       {/* <Button /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      <Father />
 
     </View>
   );
