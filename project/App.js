@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import Button from "./src/components/Button";
+import Counter from "./src/components/Counter";
 
 import First from "./src/components/First";
 import MinMax from "./src/components/MinMax";
@@ -26,7 +27,10 @@ export default function App() {
       {/* <RandomNumGen num1={1} num2={30} /> */}
 
       {/* <Title principal="I'm principal title" secondary="I'm secondary" /> */}
-      <Button />
+      
+      {/* <Button /> */}
+
+      <Counter />
 
     </View>
   );
