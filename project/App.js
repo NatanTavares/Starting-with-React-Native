@@ -10,7 +10,8 @@ import CompDefault, { Comp1, Comp2 } from "./src/components/Multi";
 import RandomNumGen from "./src/components/RandomNumGen";
 import Title from "./src/components/Title";
 
-import Father from "./src/components/direct/Father";
+import FatherDirect from "./src/components/direct/Father";
+import FatherIndirect from "./src/components/indirect/Father";
 
 export default function App() {
   return (
@@ -34,8 +35,8 @@ export default function App() {
 
       {/* <Counter /> */}
 
-      <Father />
-
+      {/* <FatherDirect /> */}
+      <FatherIndirect />
     </View>
   );
 }
