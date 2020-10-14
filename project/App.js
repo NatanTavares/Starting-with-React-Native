@@ -12,6 +12,7 @@ import Title from "./src/components/Title";
 
 import FatherDirect from "./src/components/direct/Father";
 import FatherIndirect from "./src/components/indirect/Father";
+import CounterV2 from "./src/components/counter/CounterV2";
 
 export default function App() {
   return (
@@ -36,7 +37,10 @@ export default function App() {
       {/* <Counter /> */}
 
       {/* <FatherDirect /> */}
-      <FatherIndirect />
+      {/* <FatherIndirect /> */}
+
+      <CounterV2 />
+
     </View>
   );
 }
