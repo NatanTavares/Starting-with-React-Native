@@ -13,6 +13,7 @@ import Title from "./src/components/Title";
 import FatherDirect from "./src/components/direct/Father";
 import FatherIndirect from "./src/components/indirect/Father";
 import CounterV2 from "./src/components/counter/CounterV2";
+import PlatformComp from "./src/components/Diferent";
 
 export default function App() {
   return (
@@ -39,7 +40,9 @@ export default function App() {
       {/* <FatherDirect /> */}
       {/* <FatherIndirect /> */}
 
-      <CounterV2 />
+      {/* <CounterV2 /> */}
+
+      <PlatformComp />
 
     </View>
   );
