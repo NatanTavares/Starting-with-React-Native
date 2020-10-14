@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { SafeAreaView, StyleSheet, View } from "react-native";
 import Button from "./src/components/Button";
 import Counter from "./src/components/Counter";
 
@@ -17,7 +17,7 @@ import PlatformComp from "./src/components/Diferent";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <StatusBar style="auto" />
       {/* <First /> */}
 
@@ -44,7 +44,7 @@ export default function App() {
 
       <PlatformComp />
 
-    </View>
+    </SafeAreaView>
   );
 }
 
